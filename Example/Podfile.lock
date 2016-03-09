@@ -1,0 +1,14 @@
+PODS:
+  - KidJson (0.1.0)
+
+DEPENDENCIES:
+  - KidJson (from `../`)
+
+EXTERNAL SOURCES:
+  KidJson:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KidJson: 6f4e0a9dfc9ad3f90d480da6038782726342dd19
+
+COCOAPODS: 0.39.0

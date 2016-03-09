@@ -22,7 +22,7 @@ pod "KidJson"
 
 ## Author
 
-quan-nguyen, quan-nguyen@kayac.com
+quan-nguyen, thequan.ictbk@gmail.com
 
 ## License
 

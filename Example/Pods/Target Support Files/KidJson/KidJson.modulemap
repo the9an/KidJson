@@ -1,0 +1,6 @@
+framework module KidJson {
+  umbrella header "KidJson-umbrella.h"
+
+  export *
+  module * { export * }
+}

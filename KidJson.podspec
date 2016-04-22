@@ -8,30 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = "KidJson"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "This is auto match json data with data file lib"
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = "This CocoaPod provides the ability to match json data with objC data file"
   s.homepage         = "https://github.com/thequan1/KidJson"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "quan-nguyen" => "thequan.ictbk@gmail.com" }
   s.source           = { :git => "https://github.com/thequan1/KidJson.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'KidJson' => ['Pod/Assets/*.png']
-  }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'Foundation'
 end
